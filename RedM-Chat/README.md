@@ -1,28 +1,58 @@
-### 🛠 Requirements
+# 💬 RedM-Chat
 
+A simple, standalone chat system for RedM.  
+Built for roleplay servers that want proximity chat and clean formatting without being tied to a framework.
 
-### ✅ Main Features
+---
 
-  - Completely Unique Chat System.
+## 📖 About
 
-### 🔧 Download & Installation
+RedM-Chat is a lightweight chat resource made specifically for RedM.  
+The focus is on proximity based messaging, roleplay friendly formats, and keeping things fast and simple.
 
-1. Download the latest version.
-2. Unzip the package and place this inside of your [resources]
-    - Make sure to remove the old chat system
-3. Ensure the resource in your resources files like this > ensure [chat]
-4. Configure what you want in the [App.js] file for suggestions
-5. Start the resource and it's ready.
+No framework is required, just drop it in and build on top of it.
 
-### 📈 INFO.
+---
 
-Requirements  | 
-Support	      | [Discord]()
-Store	        | [Tebex]()
-Version	      | [2.2.6]
+## ✨ Features
 
+🗣 Proximity-based chat with configurable distance  
+💭 IC / OOC / LOOC message support  
+⌨️ Command handling  
+⚡ Lightweight and performance-friendly  
+🧩 Standalone (no framework required)  
+🎨 Easy to customize and extend  
 
-### © COPYRIGHT.
+---
 
-Powered & Copyrighted
-©ToastedFX
+## 🛠 Installation
+
+1. Download or clone this repository  
+2. Place the `redm-chat` folder into your server’s `resources` directory  
+3. Add the following line to your `server.cfg`: ensure redm-chat
+4. Restart your server
+
+---
+
+## 🧠 What I Learned
+
+This project helped me get more comfortable working with both RedM logic and UI systems.
+
+🧠 Working with event driven chat logic and player messaging  
+🎨 Building the chat UI using HTML, CSS, and JavaScript  
+⚙️ Being mindful of performance when handling frequent chat events  
+🧩 Designing a system without relying on a framework  
+
+---
+
+## 📝 Notes
+
+Built with roleplay servers in mind.  
+No unnecessary dependencies.
+
+---
+
+## 📜 License
+
+Open-source.  
+Feel free to use, modify, and improve this resource.
