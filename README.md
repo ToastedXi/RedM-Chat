@@ -1,53 +1,54 @@
 # 💬 RedM-Chat
 
 A simple, standalone chat system for RedM.  
-Built for roleplay servers that want proximity chat and clean formatting without being locked into a framework.
+Built for roleplay servers that want proximity chat and clean formatting without being tied to a framework.
 
 ---
 
 ## 📖 About
 
 RedM-Chat is a lightweight chat resource made specifically for RedM.  
-The focus is on proximity-based messaging, roleplay-friendly formats, and keeping things fast and simple.
+The focus is on proximity based messaging, roleplay friendly formats, and keeping things fast and simple.
 
-No framework required — just drop it in and build on top of it.
+No framework is required, just drop it in and build on top of it.
 
 ---
 
 ## ✨ Features
 
-- 🗣 Proximity-based chat with configurable distance
-- 💭 IC / OOC / LOOC message support
-- ⌨️ Command handling
-- ⚡ Lightweight and performance-friendly
-- 🧩 Standalone (no framework required)
-- 🎨 Easy to customize and extend
+🗣 Proximity-based chat with configurable distance  
+💭 IC / OOC / LOOC message support  
+⌨️ Command handling  
+⚡ Lightweight and performance-friendly  
+🧩 Standalone (no framework required)  
+🎨 Easy to customize and extend  
+
+---
+
+## 🛠 Installation
+
+1. Download or clone this repository  
+2. Place the `redm-chat` folder into your server’s `resources` directory  
+3. Add the following line to your `server.cfg`: ensure redm-chat
+4. Restart your server
 
 ---
 
 ## 🧠 What I Learned
 
-This project helped me improve my understanding of both backend and UI systems in RedM:
+This project helped me get more comfortable working with both RedM logic and UI systems.
 
-- 🧠 **Event-driven logic**  
-  Working with chat events and player messaging reinforced clean server/client communication.
-
-- 🎨 **UI Development (HTML, CSS, JS)**  
-  Building the chat UI improved my understanding of structuring interfaces, handling input, and updating the UI dynamically.
-
-- ⚙️ **Performance considerations**  
-  Keeping the chat lightweight required being mindful of how often events fire and how data is handled.
-
-- 🧩 **Standalone design**  
-  Designing the system without a framework helped me write more modular and reusable code.
+🧠 Working with event driven chat logic and player messaging  
+🎨 Building the chat UI using HTML, CSS, and JavaScript  
+⚙️ Being mindful of performance when handling frequent chat events  
+🧩 Designing a system without relying on a framework  
 
 ---
 
 ## 📝 Notes
 
-- Built with roleplay servers in mind
-- No unnecessary dependencies
-- Intended to stay simple and flexible
+Built with roleplay servers in mind.  
+No unnecessary dependencies.
 
 ---
 
