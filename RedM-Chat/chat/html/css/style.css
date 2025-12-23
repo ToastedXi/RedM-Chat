@@ -1,0 +1,199 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+/* import poppins from google font API */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.color-0{color: #ffffff;}
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0068;}
+
+* {
+  font-family: "Tilt Neon", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.no-grow {
+  flex-grow: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+#app {
+  font-family: "Tilt Neon", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: transparent;
+}
+
+.chat-window {
+  position: absolute;
+  left: 15px;
+  width: 32vw;
+  height: 20vh;
+  border-radius: 1.5em;
+  background-color: #1612128a;
+  top: 5vh;
+  -webkit-animation-duration: 2s;
+}
+
+.chat-messages {
+  max-height: 100%;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  border-radius: 1.5em;
+}
+
+
+.chat-input {
+  font-size: 0.9rem;
+  position: absolute;
+  top: 28vh;
+  left: 110px;
+  width: 28vw;
+  box-sizing: border-box;
+}
+
+.chat-holder {
+  display: flex;
+}
+.chat-pill {
+  background-color: #2717178a;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 0 2% 0 2%;
+}
+
+textarea {
+  font-family: "Tilt Neon", sans-serif !important;
+  font-size: 14px;
+  display: block;
+  box-sizing: border-box;
+  padding: 0.65vw;
+  color: #ffffff;
+  background-color: #2717178a;
+  width: 66%;
+  min-height: 4.3vh;
+  max-height: 4.3vh;
+  border: 1px solid #4444448a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  resize: none;
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.msg {
+  margin-bottom: 5px;
+}
+
+.suggestions {
+  font-family: "Tilt Neon", sans-serif;
+  list-style-type: none;
+  padding: 10px;
+  margin-left: 5px;
+  padding-left: 20px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  color: white;
+  background-color: #2717178a;
+  border: 1px solid #4444448a;
+  height: 100%;
+  width: 71%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.suggestions > label {
+  color: white;
+  font-size: 20rem;
+  text-align: center;
+  line-height: 48px;
+  text-transform: normal;
+  margin-right: 10px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.help {
+  margin-top: -10px;
+  color: #ffffffe7;
+}
+
+.disabled {
+  margin-top: -10px;
+  color: #ffffff93;
+}
+
+.suggestion {
+  margin-bottom: 5px;
+  color: #ffffffec;
+}
+
+.chat-message {
+  margin: 0.25vw;
+  display: inline-block !important;
+  padding: 0.65vw;
+  background-color: #2717178a;
+  border: 1px solid #4444448a;
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-message-body {
+  /* margin-top: 20px; */
+}
+
+
+
+.mainoo {
+  display: flex;
+  justify-content: start;
+}
+
+
+
+.buttons button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #2717178a;
+  padding-left: 1.4vw;
+  padding-right: 1.6vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  transform: perspective(1200px) rotateY(35deg) !important;
+  font-size: 10.3px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bolder;
+}
